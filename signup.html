@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+       a:link { text-decoration: none;}
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+body{background: rgb(242,242,241);
+    background: linear-gradient(90deg, rgba(242,242,241,1) 9%, rgba(222,224,216,1) 26%, rgba(252,252,252,1) 63%, rgba(255,249,236,1) 94%);}
+    nav.groove {border-style: groove;}
+</style>
+<link rel='stylesheet' href='style.css' type='text/css'>
+
+
+        <head>
+            <title>Sign Up</title>
+          <link rel="stylesheet" type="text/css" href="style.css">
+          <div align="center" class="image">
+
+                <a href="homepage.html"><h1 class="defaulthomepagetitle">Website Builder</h1></a>
+        </div>
+
+        <nav>
+            <ul>
+               <li><a href="homepage.html">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="serve.html">Services</a></li>
+               <li><a href="call.html">Help</a></li>
+              </ul>
+        </nav>
+<script src="signup.js"></script>
+<header>
+    <h1 align="center" class="formtitles">Sign Up Page</h1><br>
+
+</header>
+</head>
+<body>
+    <form name='registration' onSubmit="return formValidation();">
+       <center>
+       <label for="userid">User id:</label>
+       <input type="text" name="userid" size="12" />
+       <label for="passid">Password:</label>
+       <input type="password" name="passid" size="12" />
+       <label for="username">Name:</label>
+       <input type="text" name="username" size="50" />
+       <label for="address">Address:</label>
+       <input type="text" name="address" size="50" />
+       <label for="country">Country:</label>
+       <select name="country">
+        <option selected="" value="Default">(Please select a country)</option>
+        <option value="ML">Malaysia</option>
+        <option value="SG">Singapore</option>
+        <option value="UK">United Kingdom</option>
+        </select>
+       <br><label for="zip">ZIP Code:</label>
+       <input type="text" name="zip" />
+       <label for="email">Email:</label>
+       <input type="text" name="email" size="50" />
+       <label id="gender">Sex:</label>
+       <input type="radio" name="msex" value="Male" /><span>Male</span>
+       <input type="radio" name="fsex" value="Female" /><span>Female</span>
+       <label>Language:</label>
+       <input type="checkbox" name="en" value="en" checked /><span>English</span>
+       <input type="checkbox" name="nonen" value="noen" /><span>Non English</span><br>
+
+       <input type="submit" name="submit" value="Submit" class="submitButton">
+       </center>
+        </form>
+
+
+
+
+
+
+
+
+    </body>
+
+
+<br><a href='login.html' class="myButton">Back</a> <br>
+<footer>    
+
+   <small><i>Copyright &copy; 2022 Web Builder Company</i></small><br>
+
+    <i>Reach Out To Us Today!!!!</i><br>
+        
+            <i>E-mail: webbuilder_147@gmail.com</i><br>
+            <i>Phone: 014-321-1134</i> 
+    </footer>
+</html>
